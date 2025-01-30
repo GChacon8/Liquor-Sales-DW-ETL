@@ -22,7 +22,7 @@ data_warehouse/
 ├── 📂 data/                # Carpeta con archivos de datos
 │   ├── sales.csv           # Archivo de datos crudos
 ├── 📂 scripts/             # Carpeta con los scripts de procesamiento
-│   ├── ETLP2.py            # Script principal para ETL
+│   ├── DW-ETL.py            # Script principal para ETL
 ├── data_warehouse.db       # Base de datos SQLite generada
 ├── README.md               # Documentación del proyecto
 
