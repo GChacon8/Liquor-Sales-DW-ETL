@@ -17,12 +17,15 @@ Se requiere instalar las siguientes bibliotecas:
 ```sh
 pip install pandas sqlite3 matplotlib
 
+### **3. Estructura del proyecto**  
+
+
 📂 data_warehouse
 │── sales.csv               # Archivo de datos crudos
 │── data_warehouse.db        # Base de datos SQLite generada
 │── ETLP2.py           # Script principal para ETL               
 │── README.md                # Documentación del proyecto
 
-### **3. Ejecución**
+### **4. Ejecución**
 python ETLP2.py
   
