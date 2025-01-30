@@ -11,20 +11,20 @@ El código está desarrollado en **Python 3.x**, por lo que se recomienda instal
 - [Python.org](https://www.python.org/downloads/)  
 - Usar `python --version` para verificar la instalación.  
 
-### **2. Instalación de las dependencias**  
+### **2. Instalación de las dependencias y ejecución**  
 Se requiere instalar las siguientes bibliotecas:  
 
 ```sh
 pip install pandas sqlite3 matplotlib
 
-### **3. Estructura del proyecto**  
 
-
-📂 data_warehouse
-│── sales.csv               # Archivo de datos crudos
-│── data_warehouse.db        # Base de datos SQLite generada
-│── ETLP2.py           # Script principal para ETL               
-│── README.md                # Documentación del proyecto
+data_warehouse/
+├── 📂 data/                # Carpeta con archivos de datos
+│   ├── sales.csv           # Archivo de datos crudos
+├── 📂 scripts/             # Carpeta con los scripts de procesamiento
+│   ├── ETLP2.py            # Script principal para ETL
+├── data_warehouse.db       # Base de datos SQLite generada
+├── README.md               # Documentación del proyecto
 
 ### **4. Ejecución**
 python ETLP2.py
